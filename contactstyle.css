@@ -71,7 +71,7 @@ iframe{
     margin-bottom: 30px;
     margin-left: 30px;
     margin-top: 20px;
-    width: fit-content;
+    width: 70%;
 }
 .deets {
     display: flex;
