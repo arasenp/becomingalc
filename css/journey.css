@@ -69,6 +69,7 @@ nav ul {
 /*Header Image*/
 .head-img {
     display: flex;
+    text-align: center;
 }
 
 /*text in header*/
@@ -217,6 +218,8 @@ li a:hover{
     transform: translate(13%, 0);
     width: 80%;
     height:80%;
+    padding-left: 2%;
+    padding-right: 2%;
     border-radius: 50px 0px 50px 0px;
     background-color: #537895;
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
@@ -249,7 +252,7 @@ h1{
     color: White;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 .storyh1{
     padding-top: 3%;
