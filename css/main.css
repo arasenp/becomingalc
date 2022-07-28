@@ -14,6 +14,7 @@ nav {
     width: 100%;
     left: 0;
     right: 0;
+    padding-top: 1.5%;
 }
 
 nav ul {
@@ -23,18 +24,16 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    float: left
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
+ul {
+    list-style-type: none;
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    text-align:center;
 }
-
+ul li{
+    display: inline;
+}
 ul a{
     border-radius: 0px 30px 0px 30px;
     background-color: #537895;
@@ -44,10 +43,9 @@ ul a{
     text-decoration: none;
     display:inline-block;
     padding:10px;
-    margin-top: 20px;
 }
 ul a:hover{
-    font-weight: bold;
+    color:rgb(0, 68, 255);
 }
 li a{
     margin-left: 20px;
