@@ -351,8 +351,8 @@ img {vertical-align: middle;}
 }
 .slide{
     position: relative;
-    width: 250px;
-    height:200px;
+    width: 20%;
+    height:35%;
     transform-style: preserve-3d;
     animation: 25s rotate linear infinite;
 }
