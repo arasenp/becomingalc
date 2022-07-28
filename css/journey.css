@@ -1,7 +1,11 @@
 /*Universal Styles*/
+html{
+    width: 100%;
+    height:100%;
+}
+
 * {
     font-family: serif !important;
-    color: black ;
 }
 
 a, button {
@@ -62,6 +66,7 @@ h2{
 
 /*Navigation bar*/
 .navigation {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
