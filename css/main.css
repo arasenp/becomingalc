@@ -351,10 +351,10 @@ img {vertical-align: middle;}
 }
 .slide{
     position: relative;
-    width: 20%;
-    height:35%;
+    width: 200px;
+    height:150px;
     transform-style: preserve-3d;
-    animation: 25s rotate linear infinite;
+    animation: 20s rotate linear infinite;
 }
 @keyframes rotate{
     0%{
