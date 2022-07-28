@@ -25,20 +25,25 @@ a, button {
     margin-bottom: 5%;
     margin-top: 2%;
 }
+.starttxt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+}
 
 /*Introduction Subtext*/
 .subtext {
     position: absolute;
-    margin-left: 15%;
-    font-style: italic;
-    font-weight: 700;
-    margin-top: 44vh;
-    padding: 5px;
-    word-wrap: break-word;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
+    font-style: italic;
+    font-size: 1.5em;
 }
-
 @media (max-width: 700px) {
     .subtext {
         margin-top: 50vh;
@@ -68,8 +73,9 @@ nav ul {
 
 /*Header Image*/
 .head-img {
-    display: flex;
+    position: relative;
     text-align: center;
+    color: white;
 }
 
 /*text in header*/
