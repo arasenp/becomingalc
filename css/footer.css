@@ -1,0 +1,37 @@
+.footer{
+    width:100%;
+}
+
+.footerWrapper{
+    display:flex;
+    flex-flow:column wrap;
+    color:white;
+    text-align:center;
+    padding:10px;
+}
+.footerItems{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    padding:10px;
+    margin-top:5px;
+}
+
+
+
+.connect{
+    font-size:20px;
+    font-weight:500;
+}
+
+
+.copyright{
+    font-style:italic;
+    font-weight:400;
+    margin:10px;
+}
+
+.iconStyles{
+    color:white;
+    font-size:14px;
+}
