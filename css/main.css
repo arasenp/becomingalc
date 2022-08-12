@@ -1,63 +1,3 @@
-/*Header*/
-/*Custom header container*/
-header {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #04619fc4 130%);
-    width: 100%;
-    /*height: 250px;*/
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding:10px;
-}
-
-nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    float: left
-}
-
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-ul a{
-    border-radius: 0px 30px 0px 30px;
-    background-color: #537895;
-    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
-    border: 2px solid white;
-    color:white;
-    text-decoration: none;
-    display:inline-block;
-    padding:10px;
-    margin-top: 20px;
-}
-ul a:hover{
-    font-weight: bold;
-}
-li a{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.logo{
-    width: 20%;
-    height: 60%;
-}
 
 .descriptionTxt{
     margin-top: 4%;
@@ -66,7 +6,11 @@ li a{
     /*font-size: 2em;*/
     /*margin-left: 5%;*/
     text-align: center;
-    color:black;
+    color:#002e6d;
+}
+
+.places{
+    color: #002e6d;
 }
 
 .rotTxt{
@@ -148,17 +92,7 @@ li a{
 }
 
 
-/*Footer*/
-footer {
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #04619fc4 130%);
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 15px;
-    height: auto;
-    color: white;
-}
+
 
 
 .soc-icons {
@@ -281,7 +215,11 @@ h1{
 }
 
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #ffffff;
+
+  }
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
@@ -424,4 +362,58 @@ li{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+
+
+/*Styling for projects strip*/
+.projectTxt{
+    width:100%;
+    display:flex;
+    align-items:center;
+    height:100px;
+    margin-top: 5%;
+}
+
+.projWrapper{
+    /*display:flex;*/
+    width:100%;
+    /*background-color:#DCDCDC;*/
+    background-color:#002e6d;
+    padding:10px;
+}
+.projList{
+    width:100%;
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    flex:1;
+}
+.projItem{
+    /*color:#132e57;*/
+    color:white;
+    font-weight:600;
+    font-size:20px;
+    margin-left: 5%;
+    text-align:center;
+}
+
+.view-more-container{
+    width:100%;
+    text-align: center;
+    margin-top: 2%;
+}
+.view-more{
+    width:200px;
+    padding:10px;
+    font-weight: bold;
+    color: white;
+    background-color: #0a53be ;
+}
+
+.view-more:hover{
+    background-color: white;
+    color: blue;
+}
+.view-more a{
+    text-decoration: none;
 }

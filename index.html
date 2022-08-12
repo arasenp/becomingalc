@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Becoming ALC</title>
+    <link rel="icon" href="img/logo.ico" />
     <link href="css/main.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
     <link href="css/homeHero.css" rel="stylesheet">
     <link href="external/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="external/swipecss/swiper-bundle.min.css">
@@ -14,16 +16,20 @@
 <body>
 
 <!-- Header Section -->
-<header class=" container-fluid hc ">
+<header class="navContainer">
     <!--    Navigation bar -->
-    <nav class=" d-flex align-self-center ">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="html/journey.html">The Journey</a></li>
-            <li><a href="html/contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-
+        <div class="navWrapper">
+            <img src="img/assets/logo.svg" alt="" class="logo"/>
+            <div class="navListWrapper">
+                <ul class="navList">
+                    <li class="navListItem"><a href="/">Home</a></li>
+                    <li class="navListItem"><a href="html/journey.html">Our Journey</a></li>
+                    <li class="navListItem"><a href="html/contact.html">About</a></li>
+                    <li class="navListItem"><a href="html/gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <button class=" apply"><a href="https://www.alueducation.com/apply-now/">Apply Now</a></button>
+        </div>
 </header>
 
 <div class="home">
@@ -43,7 +49,7 @@
 <h3 class="descriptionTxt">ALC MAURITIUS IS AN ECOSYSTEM OF STUDENTS AND PARTNER ORGANIZATIONS BREEDING INNOVATION FOR AFRICA.CHECK OUT SOME COOL GALLERIES OF OUR FAVOURITE PLACES AND EXPERIENCES</h3>
 
 
-<h1 class="">OUR FAVOURITE PLACES AROUND MAURITIUS</h1>
+<h1 class="places">HIGHLIGHTS OF OUR ALC EXPERIENCE</h1>
 <!-- Sliding Images -->
 <div class="slidebody">
     <div class="slide">
@@ -58,7 +64,21 @@
     </div>
 </div>
 
+<div class="view-more-container">
+    <span class="view-more"><a href="#">View More</a> </span></div>
+<div class="projectTxt">
+    <div class="projWrapper">
+        <ul class="projList">
+            <li class="projItem">Vibrant<br/> Community</li>
+            <li class="projItem">Diverse<br/>  Culture</li>
+            <li class="projItem">185<br/>  Projects Created</li>
+            <li class="projItem">Mission Driven <br/> Learning</li>
+        </ul>
 
+    </div>
+</div>
+
+<!-- Meet the team -->
 
 <div class="row">
     <h1>MEET THE TEAM</h1>
@@ -94,7 +114,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Augusta Tiam</h2>
-                    <p class="description">Systems Administrator</p>
+                    <p class="description">UI/UX Developer</p>
                 </div>
             </div>
 
@@ -124,7 +144,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Nancy Okoth</h2>
-                    <p class="description">Systems Administrator</p>
+                    <p class="description">UI/UX Developer</p>
                 </div>
             </div>
 
@@ -139,7 +159,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Reggie Okoko</h2>
-                    <p class="description">Systems Administrator</p>
+                    <p class="description">UI/UX Developer</p>
                 </div>
             </div>
 
@@ -154,7 +174,7 @@
 
                 <div class="card-content">
                     <h2 class="name">Amos Kasumba</h2>
-                    <p class="description">Database Administrator</p>
+                    <p class="description">Systems Testing</p>
                 </div>
             </div>
     
@@ -168,35 +188,41 @@
 <br>
 
 
-<!-- Footer Section -->
-<footer class=" d-flex">
-    <div class="">
-        <div class="footer">
-            <div class="footerWrapper">
-                <span class="connect">CONNECT WITH US</span>
 
-                <div class="footerItems">
-                    <div class="footerItem">
-                        <span class="">ALC Campus ,Powdermill Road ,Pamplemousses,Mauritius</span>
-                    </div>
-                    <div class="footerItem">
-                        <a href="https://www.facebook.com/pages/African-Leadership-College/1580772548913362"><img alt="Photo missing" class="soc-icons" src="img/facebook.png"/></a>
-                        <a href="https://www.instagram.com/alueducation/"><img alt="Photo missing" class="soc-icons" src="img/instagram.png"/></a>
-                        <a href="https://www.linkedin.com/school/alueducation"><img alt="Photo missing" class="soc-icons" src="img/linkedin.png"/></a>
-                    </div>
-                    <div class="footerItem">
-                        <span class="">WE DO HARD THINGS</span>
+
+<!-- Footer Section -->
+<footer class="footContainer">
+        <hr/>
+        <div class="footWrapper">
+            <div class="footlogo">
+                <img src="img/assets/logo.svg" alt=""/>
+                <div class="copr">
+                    <span> Copyright 2022.<br/>All Rights Reserved</span>
+                    <div class="ico">
+                         <i class="bi bi-twitter iconItem"></i>
+                        <i class="bi bi-facebook iconItem"></i>
+                        <i class="bi bi-instagram iconItem"></i>
                     </div>
                 </div>
-
-                <span class="copyright" >Copyright &copy; Becoming ALC.All Rights Reserved.All Images Used In This Website Have Been Sourced Under The Pexels Free License</span>
             </div>
+            <div class="footAddress">
+                <div class="privacyP">
+                    <ul class="footList">
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
 
+                <div class="footCampus">
+                    <ul class="footList">
+                        <li>+23058517209</li>
+                        <li>ALC Campus </li>
+                        <li>PowderMill Road,21001</li>
+                    </ul>
+                </div>
+
+            </div>
         </div>
-
-    </div>
-
-
 </footer>
 
     <script src="external/swipejs/swiper-bundle.min.js"></script>

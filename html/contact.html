@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html>
     <head>
         <title>Contact Us</title>
         <link rel="stylesheet" type="text/css" href="../css/contactstyle.css">
+        <link href="../css/navbar.css" rel="stylesheet">
+        <link href="../css/footer.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=0.5"/>
     </head>
     <body>
-        <div class="menu">
-            <ul>
-                <li><a  href="../index.html">Home</a></li>
-                <li><a href="journey.html">The Journey</a></li>
-                <li><a  href="contact.html">Contact Us</a></li>
-            </ul>
+    <header class="navContainer">
+        <!--    Navigation bar -->
+        <div class="navWrapper">
+            <img src="../img/assets/logo.svg" alt="" class="logo"/>
+            <div class="navListWrapper">
+                <ul class="navList">
+                    <li class="navListItem"><a href="../index.html">Home</a></li>
+                    <li class="navListItem"><a href="journey.html">Our Journey</a></li>
+                    <li class="navListItem"><a href="contact.html">About</a></li>
+                    <li class="navListItem"><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <button class=" apply"><a href="https://www.alueducation.com/apply-now/">Apply Now</a></button>
         </div>
-        <form action="https://formsubmit.co/aluexperience@gmail.com" method="POST">
+    </header>
 
+
+        <form action="https://formsubmit.co/aluexperience@gmail.com" method="POST">
             <div class="box">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14577.129492474496!2d57.56019326361973!3d-20.10324901900369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x217c5522a5ca9c1f%3A0x3bdb9ec034be93fa!2sAfrican%20Leadership%20Campus!5e0!3m2!1sen!2smu!4v1656145091836!5m2!1sen!2smu" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <br>
@@ -56,7 +66,40 @@
                     <input type="submit" value="Submit">
                     
             </div>
-
         </form>
     </body>
+
+    <footer class="footContainer">
+        <hr/>
+        <div class="footWrapper">
+            <div class="footlogo">
+                <img src="../img/assets/logo.svg" alt=""/>
+                <div class="copr">
+                    <span> Copyright 2022.<br/>All Rights Reserved</span>
+                    <div class="ico">
+                        <i class="bi bi-twitter iconItem"></i>
+                        <i class="bi bi-facebook iconItem"></i>
+                        <i class="bi bi-instagram iconItem"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footAddress">
+                <div class="privacyP">
+                    <ul class="footList">
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                    </ul>
+                </div>
+
+                <div class="footCampus">
+                    <ul class="footList">
+                        <li>+23058517209</li>
+                        <li>ALC Campus </li>
+                        <li>PowderMill Road,21001</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 </html>
