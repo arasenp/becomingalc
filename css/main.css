@@ -378,7 +378,8 @@ li{
     /*display:flex;*/
     width:100%;
     /*background-color:#DCDCDC;*/
-    background-color:#002e6d;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619fc4 130%);
     padding:10px;
 }
 .projList{

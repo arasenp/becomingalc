@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,300i,400,400i,500,500i');
+
+.gallerybody{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 100%;
+    padding: 1em;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.section-heading {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    letter-spacing: -2px;
+    word-spacing: 4px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 270px;
+    grid-gap: .8em;
+    grid-auto-flow: row dense;
+    font-weight: 400
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #00CED1;
+    background-image: linear-gradient(315deg, #00CED1 0%, #005D5E 74%);
+    padding: 7px;
+    margin: 3px;
+}
+
+div.imgWrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+}
+
+.gallery img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    flex: 1;
+    opacity: .7;
+    object-fit: cover;
+    transition: all 300ms ease-out;
+}
+
+figure:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.two-span-row {
+    grid-row: auto / span 2;
+}
+
+.two-span-column {
+    grid-column: auto / span 2;
+}
+
+.full-span-column {
+    grid-column: 1 / -1;
+    grid-row: span 1;
+}
+
+@media (min-width: 1000px) {
+    .full-span-column {
+        grid-column: 1 / span 2;
+        grid-row: span 1;
+    } 
+}
+
+figcaption {
+    text-align: right;
+    margin-top: 3px;
+    border-top: 1px solid rgba(255,255,255,.8);
+    padding-top: 5px;
+    color: rgba(255,255,255,.8);
+}
+
+@media (max-width: 550px) {
+    .gallery {
+    display: block;
+  }
+  
+  figure {
+    margin-bottom: 1em;
+  }
+  
+  figcaption {
+    font-size: .9em;  
+  }
+}
