@@ -59,7 +59,7 @@ a{
     background-color:red;
     color: white;
     height:60%;
-   padding:10px ;
+    padding:10px ;
     text-decoration: none;
     margin-top:1%;
     border: 1px white solid;
@@ -74,27 +74,34 @@ a{
     .navWrapper {
         display:flex;
         flex-flow:column wrap;
+        /*flex: 1 1 50%;*/
         margin-left:0;
+        margin-right: 0;
         height:100%;
         padding:5px;
     }
+    .navListWrapper{
+        margin-left: 0;
+        justify-content: flex-start;
+        padding-left: 0;
+    }
     .navList{
         display:flex;
-        /*flex-flow:column wrap;*/
+        flex-flow:column wrap;
+        margin-left: 0;
         list-style:none;
         justify-content:space-around;
+        align-items: flex-start;
         padding-top:14px;
     }
     .navContainer{
-        height:100px;
+        height:200px;
     }
+
 
     .apply{
         display:none;
-        height:60%;
-        padding:9px;
-        padding-top:5px;
-        margin-top:0.9%;
+
     }
 
 }
